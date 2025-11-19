@@ -60,9 +60,11 @@ Now that osTicket is successfully installed from scratch,  it is time to do some
     - ✅ `Release — Ability to release ticket assignment`
     - ✅ `Transfer — Ability to transfer tickets between departments`
 
-<img src="/images/add-master-admin.png" alt="Add Master Admin">
+<img width="970" height="461" alt="image" src="https://github.com/user-attachments/assets/4ee6050e-5e6f-486f-b322-c81e7f8df434" />
 
-###  Adding a New "System Administrators" Department
+
+
+###  -Adding a New "System Administrators" Department
 
 Each Agent is appointed a specific department which is determined by their assigned role within the helpdesk. For now, we'll just create a "System Administrators" department where the Master Admins will be designated. Various other settings such as email settings, service level agreements (SLAs), and managers can also be configured in the `Departments` tab.
 
@@ -72,9 +74,10 @@ Each Agent is appointed a specific department which is determined by their assig
 
 3. Scroll to the bottom of the page and click the orange `Create Dept` button
 
-<img src="/images/add-sys-admin-department.png" alt="Add System Administrators Department">
+<img width="970" height="936" alt="image" src="https://github.com/user-attachments/assets/c88d9844-59b6-4b71-9122-45c4f509eb52" />
 
-###  Adding a New "Level II Support" Team
+
+###  -Adding a New "Level II Support" Team
 
  Teams enable cross-departmental collaboration by aggregating skilled agents from various units. This structure facilitates the creation of specialized groups. For instance, you can develop a help topic related to a specific product and assign it to a team of agents with expertise in that product. In this demonstration, we'll create a "Level II Support Team" to illustrate this concept.
 
@@ -84,9 +87,10 @@ Each Agent is appointed a specific department which is determined by their assig
 
 3. At the bottom of the page, click the orange `Create Team` button
 
-<img src="/images/add-level2-support-department.png" alt="Add Level II Support Team">
+<img width="970" height="685" alt="image" src="https://github.com/user-attachments/assets/06e7e74e-6358-4287-a292-ad207fab9bbd" />
 
-###  Allowing Non-registered Users to Create Tickets
+
+###  -Allowing Non-registered Users to Create Tickets
 
 Out-of-the-box installations of osTicket require users to be registered and logged-in before they can create tickets. Since this isn't always ideal, the setting regarding this functionality needs to be adjusted.
 
@@ -94,9 +98,10 @@ Out-of-the-box installations of osTicket require users to be registered and logg
 
 2. At the bottom of the page, click the orange `Save Changes` button
 
-<img src="/images/adjust-ticket-permissions.png" alt="Adjust Ticket Permissions">
+<img width="970" height="692" alt="image" src="https://github.com/user-attachments/assets/63229b69-6b37-4260-ab92-03734210821e" />
 
-###  Adding New Agents
+
+###  -Adding New Agents
 
 Next, we'll proceed to create Agents. Agents  are the helpdesk staff responsible for resolving tickets. Each Agent is assigned a primary department and role for tickets within their designated area. Agents can be granted access to multiple departments, with potentially different roles in each. The Access, Permissions, and Teams tabs are used to adjust access levels, manage permissions, and assign teams for each staff member.
 
@@ -111,11 +116,13 @@ Next, we'll proceed to create Agents. Agents  are the helpdesk staff responsible
 > 
 > While creating an administrator-level Agents (e.g. System Administrators, Managers), permit them expanded access to the Support department so that they are able to assign tickets to support-level employees.
 
-<img src="/images/add-agents.png" alt="Add Agents">
+<img width="970" height="928" alt="image" src="https://github.com/user-attachments/assets/8eb6f4f1-de1a-421c-90af-a32ce4bb2bd6" />
 
-<img src="/images/agents-list.png" alt="Agents List">
 
-###  Setting Agent's Passwords
+<img width="970" height="448" alt="image" src="https://github.com/user-attachments/assets/5b606dd4-5a07-4f2d-bc8c-52858812d2d2" />
+
+
+###  -Setting Agent's Passwords
 1. In the Admin panel of osTicket, navigate to `Agents` > `Agents` > and then select that Agent that needs their password set
    
 2. Under the **Authentication** section, click `Set Password`
@@ -129,9 +136,10 @@ Next, we'll proceed to create Agents. Agents  are the helpdesk staff responsible
 > 
 > The steps above outline how an admin would manually set an Agent's password. However, the two boxes that were left unchecked are alternative methods for the Agent to set their own password instead.
 
-<img src="/images/set-agent-password.png" alt="Set Agent Password">
+<img width="970" height="753" alt="image" src="https://github.com/user-attachments/assets/0baff260-a53a-4e8b-8314-140e1dca0d74" />
 
-###  Adding Service Level Agreements (SLAs)
+
+###  -Adding Service Level Agreements (SLAs)
 
 SLA (Service Level Agreement) Plans define the expected resolution time for specific ticket types. Each SLA incorporates a schedule and a grace period. For instance, in our example, the SEV-A (Severity A) SLA operates on a 24/7 schedule with a one-hour grace period. This structure ensures clear expectations for ticket resolution timeframes.
 
@@ -141,9 +149,10 @@ SLA (Service Level Agreement) Plans define the expected resolution time for spec
 
 3. At the bottom of the page, click the orange `Add Plan` button
 
-<img src="/images/add-SLAs.png" alt="Add SLAs">
+<img width="970" height="673" alt="image" src="https://github.com/user-attachments/assets/0f52e0d7-2ecd-4025-8095-71b8d555d368" />
 
-###  Adding Help Topics
+
+###  -Adding Help Topics
 
 Help Topics facilitate ticket categorization for users. For example, we can create a "Business Critical Outage" topic, which could be used for scenarios such as customers being unable to access mobile banking services. This categorization streamlines the ticket management process and prioritization.
 
@@ -153,12 +162,8 @@ Help Topics facilitate ticket categorization for users. For example, we can crea
 
 3. At the bottom of the page, click the orange `Add Topic` button
 
-<img src="/images/add-help-topic.png" alt="Add Help Topic">
+<img width="970" height="642" alt="image" src="https://github.com/user-attachments/assets/e652be0e-30da-4fcf-ad35-65597aff1aac" />
 
 <br><div align="center">
 
-</div>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
