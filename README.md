@@ -18,7 +18,8 @@ This project provides a detailed walkthrough of the post-installation configurat
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> 
+- Windows Server 2022
 
 <h2>Post-Install Configuration Objectives</h2>
 
